@@ -1,0 +1,35 @@
+
+
+
+print("Welcome to LBI Bra Size Calculator")
+
+bust=float(input("Please enter your bust measurement in inches."))
+band=float(input("Please enter your band measurement in inches."))
+print("Please note , your Bra size is rounded up to the nearest whole number.")
+
+diff=bust-band
+round_diff= int(round(diff))
+
+
+
+if round_diff==0:
+  print(f"Your bra size is {band}AA.\n Thank you for using LBI Bra Calculator.")
+elif round_diff==1:
+  print(f"Your bra size is {band}A. \n Thank you for using LBI Bra Calculator.")
+elif round_diff==2:
+  print(f"Your bra size is {band}B. \n Thank you for using LBI Bra Calculator.")
+elif round_diff==3:
+  print(f"Your bra size is {band}C. \n Thank you for using LBI Bra Calculator.")
+elif round_diff==4:
+  print(f"Your bra size is {band}D. \n Thank you for using LBI Bra Calculator.")
+else:
+  print("Thank you for using LBI Bra Calculator, please try again!")
+  
+
+
+
+
+
+
+
+
